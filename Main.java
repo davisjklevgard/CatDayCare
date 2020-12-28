@@ -7,10 +7,10 @@ public class Main {
 
 
 		//cat is first put into daycare's system - create a new cat
-		Cat cat2 = new Cat("Tango", "Mackenzie", 4, "catnip");
+		Cat cat2 = new Cat("Tango", "Mackenzie", 8, "turkey pate");
 
 		//creates Daycare
-		CatDayCare dc = new CatDayCare(cat2);
+		CatDayCare dc = new CatDayCare(Owner);
 		
 		//cat that was born at daycare leaves
 		cat1.departs();
