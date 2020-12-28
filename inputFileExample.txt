@@ -1,0 +1,83 @@
+new client
+
+new cat
+
+cat drop off
+
+cat born
+
+cat feeding
+
+billing client
+
+cat play
+
+cat eat
+
+client pay 
+
+accounting department
+
+
+
+
+client
+	fields:
+	client name
+	number of cats
+	
+
+	methods:
+	become client
+	add cat
+	drop cat off
+	pay bill
+
+cat
+	be born
+	eat
+	sleep
+	play
+
+daycare
+	accept cat
+	feed cat
+	prompt client
+	ask for report of delinquent accounts from accounting
+
+toy
+	make noises
+	release treats
+	run out of battery
+	break
+
+food
+	eaten
+
+accounting department
+	create the report of all clients
+	create the report of a specific client
+	create a report of just delinquent clients
+
+
+inputFile:
+
+------
+create more cat day cares
+------
+number of cat day cares: 3
+dayCare1: 
+	name:ECdaycare
+	location:EC
+	maxCats:100
+
+
+-----
+add client
+-----
+number of clients: 2
+client: 
+	name:Davis
+	
+
+
