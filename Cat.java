@@ -32,7 +32,7 @@ public class Cat{
 	public void playWithCat(String catName){
 		System.out.println(name + " is playing with " + catName);
 	}
-
+	
 	public void departs(){
 		System.out.println(name + " has left the daycare.");
 	}
@@ -40,5 +40,16 @@ public class Cat{
 	public void arrives(){
 		System.out.println(name + " has been dropped off.");
 	}
-
+	//play with toy
+	public void playWithToy(String toy){
+		System.out.println(name + " is playing with " + toy);
+	}
+	//cat goes to sleep
+	public void sleep(){
+		System.out.prinln(name + " is sleeping.");
+	}
+	//cat wakes up
+	public void wakingUp(){
+		System.out.println(name + " has woken up");
+	}
 }

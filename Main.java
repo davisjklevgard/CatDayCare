@@ -21,9 +21,6 @@ public class Main {
 		//cat that was born at daycare is dropped off
 		cat1.arrives();
 
-		//cat is eating
-		dc.eating(cat2);
-
 	}
 
 }
