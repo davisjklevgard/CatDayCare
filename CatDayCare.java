@@ -2,14 +2,14 @@ public class CatDayCare {
 	String ownerName;
 	String CatName;
 	String favoriteFood;
-	String favorite Toy;
+	String favoriteToy;
 	
 	int age;
 	
 	HashMap<String, String> cats = new HasMap<>(100);
 	//the cat eating
 	public void acceptCat(String ownerName, String catName){
-		map.put(ownerName, catName); 
+		cats.put(ownerName, catName); 
 		System.out.println(catName + " has been dropped off at Daycare");
 	}	
 	//prompt client
