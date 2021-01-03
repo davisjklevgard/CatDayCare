@@ -1,8 +1,13 @@
+
+import java.util.*;
+import java.util.Map.Entry;
+
+
 public class AccountingDepartment{
-	HashMap<String, int> clients = new HashMap<>();
+	HashMap<String, Integer> clients = new HashMap<>();
 	//add a client
 	public void addClient(String name, int amountDue){
-		clients.put(name, amountDue)
+		clients.put(name, amountDue);
 		System.out.println(name + " has been added.");
 		System.out.println(name + " owes " + amountDue);
 	}
@@ -13,10 +18,18 @@ public class AccountingDepartment{
 		System.out.println(Collections.singletonList(clients)); 
 	}
 
+	//create an array from the HashMap
+
+	Set<Entry<String, Integer>> entrySet = clients.entrySet();
+	ArrayList<Entry<String, Integer>> listOfClients = new ArrayList<Entry<String, Integer>>(entrySet);
+
 	//create report of all delinquent clients
 	public void delinquentClients(){
-		for (value > 0: clients.name()) {
-			System.out.println(name);
+		for (int value : listOfClients) {
+			if ( value > 0){
+				System.out.println(name);
+			}
 		}
+
 	}
 }
