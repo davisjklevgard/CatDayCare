@@ -46,7 +46,7 @@ public class Cat{
 	}
 	//cat goes to sleep
 	public void sleep(){
-		System.out.prinln(name + " is sleeping.");
+		System.out.println(name + " is sleeping.");
 	}
 	//cat wakes up
 	public void wakingUp(){
