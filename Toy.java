@@ -7,7 +7,7 @@ public class Toy{
 
 	//create toy
 	public Toy(String toyName, boolean noises, boolean battery, boolean releaseTreats) {
-		this.toyName = name;
+		this.toyName = toyName;
 		this.noises = noises;
 		this.battery = battery;
 		this.releaseTreats = releaseTreats;
