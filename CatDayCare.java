@@ -5,15 +5,15 @@ import java.util.*;
 
 public class CatDayCare {
 	String ownerName;
-	String CatName;
+	String catName;
 	String favoriteFood;
 	String favoriteToy;
 	
 	int age;
 	
-	HashMap<String, String> cats = new HasMap<>(100);
-	//the cat eating
-	public void acceptCat(String ownerName, String catName){
+	HashMap<String, String> cats = new HashMap<>(100);
+	//accepting cat
+	public CatDayCare(String ownerName, String catName){
 		cats.put(ownerName, catName); 
 		System.out.println(catName + " has been dropped off at Daycare");
 	}	
@@ -31,7 +31,7 @@ public class CatDayCare {
 	}
 	//playing with favorite toy
 	public void playingWithFavoriteToy(String favoriteToy){
-		System.out.prinln(catName + " is playing with " + favoriteToy);
+		System.out.println(catName + " is playing with " + favoriteToy);
 	}
 
 }

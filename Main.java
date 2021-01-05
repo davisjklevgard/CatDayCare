@@ -10,7 +10,8 @@ public class Main {
 		Cat cat2 = new Cat("Tango", "Mackenzie", 8, "turkey pate");
 
 		//creates Daycare
-		CatDayCare dc = new CatDayCare(Owner);
+		CatDayCare dc = new CatDayCare("Mackenzie", "Tango");
+
 		
 		//cat that was born at daycare leaves
 		cat1.departs();

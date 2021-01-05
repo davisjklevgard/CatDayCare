@@ -1,5 +1,7 @@
 public class Clients {
-
+	
+	
+	String name; 
 	String clientName;
 	int numberOfCats;
 	int age;
@@ -13,7 +15,7 @@ public class Clients {
 		System.out.println("Insert client name: " + name);
 	}
 	//adding a cat
-	public void Cat (String name, String ownerName, int age, String favoriteFood){
+	public void Cat (String name, String clientName, int age, String favoriteFood){
 	this.name = name;
 	this.clientName = clientName;
 	this.age = age;
